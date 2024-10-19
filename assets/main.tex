@@ -1,0 +1,104 @@
+\documentclass[12pt,a4paper]{report}
+\usepackage[pdftex]{graphicx}
+\tolerance=1
+\emergencystretch=\maxdimen
+\hyphenpenalty=10000
+\hbadness=10000
+\usepackage{amsmath}
+\usepackage{longtable}
+\usepackage{acro}
+\usepackage[utf8]{inputenc}
+%\usepackage[acronym]{glossaries}
+%\usepackage[toc]{glossaries}
+%\usepackage[refpage]{nomencl}
+\usepackage{color}
+\usepackage{amssymb}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{txfonts}
+\usepackage{mathdots}
+\usepackage{rotating}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage[classicReIm]{kpfonts}
+%\usepackage[dvips]{graphicx}
+\DeclareGraphicsExtensions{.pdf,.jpeg,.png, .PNG}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    citecolor={red}
+}
+\urlstyle{same}
+\usepackage{caption}
+\usepackage{mathtools}
+\usepackage{amsmath}
+\usepackage[superscript]{cite}
+\usepackage{subcaption}
+\usepackage[top=2cm, bottom=2cm, left=2.5cm, right=2cm]{geometry}
+\usepackage[compact]{titlesec}
+\usepackage{fancyhdr} %header
+\usepackage{setspace}
+\usepackage{fontenc}
+\usepackage{microtype}
+\usepackage{booktabs}%table
+\usepackage{multirow}%table
+\usepackage[table,xcdraw]{xcolor}%table
+\usepackage[printwatermark]{xwatermark}
+\usepackage{transparent}
+\usepackage{algorithm2e}
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+\usepackage[final]{pdfpages}
+\usepackage{MnSymbol,wasysym}
+\usepackage{caption}%caption
+\usepackage{fancyhdr} %header
+\usepackage[utf8]{inputenc}
+ \setlength{\arrayrulewidth}{0.4mm}
+\setlength{\tabcolsep}{18pt}
+\renewcommand{\arraystretch}{1.5}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{multirow}
+\pagestyle{fancy}
+%\renewcommand{\chaptermark}[1]{\markboth{\chaptername \ \thechapter \ -\ #1}{}}
+%\renewcommand{\sectionmark}[1]{\markright{\thesection \ -\ #1}{}}
+\fancyhf{} 
+\fancyhead[R]{\itshape\leftmark}
+\fancyfoot[C]{\thepage}
+\renewcommand\headrulewidth{0pt}% suppress the header rule 
+\PassOptionsToPackage{hyphens}{url}%For Bilblography
+\usepackage{setspace}
+\usepackage{mathptmx}% http://ctan.org/pkg/mathptmx
+\linespread{1.5}
+
+
+
+\begin{document}
+\pagestyle{\chaptermark}{\markboth{\chaptername \\thechapter \ -\ #1}{}}
+\renewcommand{\headrulewidth}{2pt}
+\renewcommand{\footrulewidth}{1pt}
+\include{cover.tex}
+\include{Certificate.tex}
+\tableofcontents
+\newpage
+\listoffigures
+\newpage
+\listoftables
+
+\renewcommand{\thepage}{\roman{page}}
+\include{Chap-1.tex}
+\include{chap-2.tex}
+%\include{Titlepages}
+%\include{Certificate.tex}
+
+%\pagenumbering{arabic}
+
+%\pagestyle{\chaptermark}{\markboth{\chaptername \\thechapter \ -\ #1}{}}
+%\renewcommand{\headrulewidth}{2pt}
+%\renewcommand{\footrulewidth}{1pt}
+
+
+\end{document}

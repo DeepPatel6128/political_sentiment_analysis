@@ -1,0 +1,20 @@
+Youtube channels 
+	buildwithpython
+	weights and baisis
+	rithesh sreenivasanan
+	https://www.youtube.com/watch?v=t1TkAcSDsI8
+	https://www.youtube.com/watch?v=t1TkAcSDsI8 --emotion classification
+
+code links 
+
+	https://github.com/schowdhury21/Tweet_emotion_recognition - LSTM
+	https://github.com/sohaibalam1994/Emotion-Recognition-from-text-using-machine-learning/blob/main/Emotion_Recognition.ipynb - SVM
+
+https://github.com/Jeshima/-IndiaFightsCorona-Lockdown-covid19-Twitter-Sentiment-analysis
+
+
+TEXT LABELLING - https://github.com/Vennify-Inc/zero-shot-data-generation
+			https://towardsdatascience.com/how-to-label-text-for-sentiment-analysis-good-practises-2dce9e470708#:~:text=A%20good%20approach%20to%20label,positive%20if%20they%20contain%20profanity.
+
+CNN-LSTM model - https://github.com/mjain72/sentiment-analysis-using-CNN-LSTM-for-twitter/blob/master/SentimentAnalysisTwitter-CNN-LSTM.py
+	
